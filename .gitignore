@@ -1,0 +1,8 @@
+!.gitignore
+.dodsrc
+__pycache__/
+.env
+server.log
+main.log
+logs/*
+~$EE-Documentation.docx
