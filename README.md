@@ -36,7 +36,3 @@ Install necessary dependencies with:
 pip install -r requirements.txt
 ```
 
-
-## Detailed Documentation
-
-For comprehensive documentation, please visit the project [wiki](https://mygit.th-deg.de/tcf-geo/new-photovoltaik-simulation-enerplanet/-/wikis/home).
