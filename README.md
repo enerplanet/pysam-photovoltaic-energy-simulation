@@ -110,10 +110,11 @@ Errors have the body `{"error": {"code": "...", "message": "...", "details": {..
 ## Run
 
 ```bash
-docker build -t pv-service .
-docker run --rm -p 8080:8080 pv-service
+docker compose up -d --build
 ```
 
+The container is `pv-service` on port 8080 and joins the `tentacron-net`
+network; from the host it answers on `localhost:8092` (`HOST_PORT`).
 `WEB_CONCURRENCY` sets the number of worker processes (default 2).
 
 Without Docker:
